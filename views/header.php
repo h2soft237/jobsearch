@@ -21,7 +21,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
     <div class="container">
         <a class="navbar-brand" href="index.php">
-            <?php echo htmlspecialchars($GLOBALS['settings']['site_name'] ?? 'Nom du Site'); ?> 
+            <?php echo htmlspecialchars($GLOBALS['settings']['site_name'] ?? 'Job Search'); ?> 
         </a>
         <!-- <a class="navbar-brand" href="index.php">JobBoard PHP</a> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
